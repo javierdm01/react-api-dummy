@@ -1,0 +1,23 @@
+.user_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    margin: auto;
+    justify-content: space-around;
+    gap: 15px;
+}
+.user_card{
+    width: 32%;
+    border: 1px solid grey;
+    display: flex;
+}
+.user_img{
+    width: 200px;
+}
+.user_names{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
